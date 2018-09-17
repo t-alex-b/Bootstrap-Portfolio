@@ -4,7 +4,10 @@ body {
   font-family: 'Lato' , sans-serif;
 
   /* Visual */
-  background-image: url("");
+	background-image: url("../imgs/cuztom.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #39706f;
 }
 
 html {
@@ -30,7 +33,7 @@ main {
 
 .block-header {
   /* Typography */
-  color: #8c5a99;
+  color: #7696db;
   font-family: 'Orbitron', sans-serif;
   font-weight: bold;
 }
@@ -45,12 +48,12 @@ main {
   color: #fff;
 
   /* Visual */
-  background: #8c5a99;
+  background: #7696db;
 }
 
 /* override bootstrap hover color and border */
 .navbar-default .navbar-nav > li > a:hover {
-  color: #8c5a99;
+  color: #7696db;
 }
 
 .navbar {
@@ -99,7 +102,7 @@ main {
   height: 60px;
 
   /* Visual */
-  background-color: #666;
+  background-color: #39706f;
 }
 
 .text-muted-footer {
@@ -116,7 +119,7 @@ main {
   padding-top: 3px;
 
   /* Visual */
-  background-color: #4aaaa5;
+  background-color: #ff7d04;
 }
 /* END FOOTER */
 /* --- END STYLES FOR ALL PAGES --- */
@@ -151,33 +154,3 @@ main {
 }
 /* END PORTFOLIO PAGE */
 
-
-/* CONTACT FORM PAGE  */
-.form-control {
-  /* give input boxes right angles */
-  border-radius: 0;
-
-  /* keep from horizontally resizing text area */
-  min-width: 100%;
-  max-width: 100%;
-}
-
-.submit-btn {
-  /* Box-model */
-  padding: 15px 30px;
-  font-size: 16px;
-  font-weight: lighter;
-
-  /* Typography */
-  color: #fff;
-
-  /* Visual */
-  background-color: #4aaaa5;
-  border: 0;
-}
-
-.submit-btn:hover {
-  opacity: .7;
-}
-
-/* END CONTACT FORM PAGE */
